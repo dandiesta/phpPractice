@@ -24,4 +24,8 @@ class Employee extends Person
 		$this->salary=$salary;
 	}
 }
+
+$emp = new Employee("Dan", "Taguig", "19", "something", "1111");
+
+printf("Name: %s\nAddress: %s\nAge: %d\nPosition: %s\nSalary: P%.2f\n", $emp->name, $emp->address, $emp->age, $emp->position, $emp->salary);
 ?>
