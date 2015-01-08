@@ -1,0 +1,1 @@
+black.php will work only if you install php5-gd
