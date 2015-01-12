@@ -1,6 +1,6 @@
 <?php
 
-require_once 'profiling.php';
+require_once 'profiling.php'; 
 
 $timer = new Benchmark_Timer;
 
