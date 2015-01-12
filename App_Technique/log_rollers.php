@@ -1,6 +1,6 @@
 <?php
 
-function log_roller($error, $errorString)
+function log_roller($error, $errorString) 
 {
 	$file = 'var/log/php_errors.log';
 
